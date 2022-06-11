@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="página/img/icons8-copas-64.png" type="image/x-icon">
+    <title>Olá</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border-radius: 10px;           
+        }
+        body{
+            background-color: rgb(0, 0, 0);
+            font: normal 15pt Arial;
+            
+        }
+        header{
+            height: 150px;
+
+        }
+        section{
+            background-color: white;
+            padding: 15px;
+            width: 500px;
+            height: 250px;
+            margin: auto;
+            box-shadow: 5px 5px 5px white;
+            text-align: center;
+
+        }
+        .centralizar{
+            text-align: center;
+        }
+        :placeholder-shown{
+            text-align: center;
+        }
+        #dica{
+            font-size: 13px;
+        }
+        footer{
+        padding: 15px;
+        color: rgb(144, 43, 226);
+        text-align: center;
+        font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <section>
+        <div>
+            <p><pre>
+Quem é você? Se tu realmente quer acessar
+tem que se mostrar digno.
+            </pre></p>
+        </div>
+        <div id="logintela">
+            
+            <div class="centralizar">
+                <h1>Nome</h1> <input type="text" name="Nome" id="nome" placeholder="Digite seu nome" >
+            </div>
+            <div class="centralizar">
+                <h2>Senha</h2> <input type="password" name="senha" id="senha" placeholder="Digite meu nome">
+            </div>
+            <div >
+                <input type="button" value="    Entrar    " id="entrar" onclick="entrar()">
+            </div>
+            <div id="dica">Obs: temos o mesmo nome um pro outro.</div>          
+        </div>
+    </section>
+    <script>
+        function entrar(){
+            let pegar_nome = document.getElementById('nome').value
+            let pegar_senha = document.getElementById('senha').value.toLowerCase()
+            if ( pegar_senha == "amor"){
+                window.location.href='page/page0.html'          
+            }else{
+                window.alert(`Pessoa com ${pegar_nome}, você errou a senha! Vamos tentar novamente, se atente na dica!`)
+            }
+        }
+    </script>
+    <footer>
+        <p>All right reserved to Levi Tessari (LeviT&copy;).</p>
+    </footer>
+</body>
+</html>
