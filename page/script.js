@@ -7,7 +7,7 @@ function entrar(){
     
 }
 function sair() {
-    imagem1.innerHTML = 'Não sei volta <br> pra foto'
+    imagem1.innerHTML = document.write("<img src='img/meu_amor.png' alt='Amor' id='mariaimagem1'>")
 }
 let imagem2 = window.document.getElementById('leviimagem')
 let imagemVolta2 = window.document.getElementById('leviimagem')
