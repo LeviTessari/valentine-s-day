@@ -7,7 +7,10 @@ function entrar(){
     
 }
 function sair() {
-    imagem1.innerHTML = document.write("<img src='img/meu_amor.png' alt='Amor' id='mariaimagem1'>")
+    
+    
+    imagem1.src = 'img/meu_amor.png'
+    imagem1.src = load(window. location. href + "mariaimagem" )
 }
 let imagem2 = window.document.getElementById('leviimagem')
 let imagemVolta2 = window.document.getElementById('leviimagem')
