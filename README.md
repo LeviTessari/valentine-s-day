@@ -1,5 +1,5 @@
 Este site foi criado como presente virtual de dia dos namorados em 2022.
-Praticamente do zero, sem qualquer experiência no mundo da programação.
+Praticamente do zero, sem qualquer experiência no mundo da programação. <br>
 Foi bem trabalhoso e necessitou de muita dedicação e ainda contém erros ou códigos que poderiam ser melhorados.
 Se vocês souberem solucionar meus problemas sobre o código, por favor me avise!
 Para acessar a tela de login é simples, o login simplesmente não existe, ele é conectado apenas utilizando a palavrar "amor" sem as aspas, independendo do modo como escreve.
